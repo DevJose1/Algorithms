@@ -14,8 +14,7 @@ public class BubbleSort {
 					tab[j] = tab[j+1];
 					tab[j+1]= temp;
 					swapping = true;
-				}
-				
+				}				
 			}
 			if (swapping==false) {
 				break;
